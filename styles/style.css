@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(23, 23, 23);
+}
+
+#tituloprincipal{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gridHeader {
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 50px;
+}
+
+.gridHeader nav{
+    background-color: rgb(141, 141, 141);
+}
+
+.flexNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.flexNav a:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+} 
+
+.gridMain {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 560px 400px;
+    background-color: rgb(82, 82, 82);
+}
+
+.gridMain div{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridMain div p{
+    color: aliceblue;
+    padding: 20px;
+}
+
+img{
+    height: 100%;
+}
+
+.gridFooter {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+}
+
+.gridFooter a{
+    border-radius: 5px;
+    transform: rotate(5deg);
+    color: rgb(202, 202, 202);
+    background-color: rgb(69, 69, 69);
+    text-align: center;
+}
+
+    /* Comienzo Desktop INDEX */
+
+@media (min-width: 599px){
+    .gridMain{
+        grid-template-columns: 33% 67%;
+        grid-template-rows: 562px;
+    }
+    img{
+        border-bottom-left-radius:  20px;
+        border-bottom-right-radius:  20px;
+    }
+}
+
+    /* Fin Desktop INDEX */
+
+.gridMainFoto {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 700px 700px;
+    background-color: rgb(82, 82, 82);
+}
+
+.gridMainFoto div{
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* Comienzo Desktop FOTOS */
+
+@media (min-width: 599px){
+    .gridMainFoto{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 700px;
+    }
+}
+
+    /* Fin Desktop FOTOS */
+
+ /* ESTILOS PAGINA POEMAS */
+
+ .gridPoemas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    /* border: 2px solid rgb(255, 133, 133); */
+    justify-content: center;
+    align-items: center;
+ }
+
+.gridPoemas h3{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.gridPoemas p{
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+    /* border: 2px solid white; */
+}
+
+@media (min-width: 599px){
+    .gridPoemas{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px){
+    .gridPoemas{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 150px 1fr;
+        /* border: 2px solid white; */
+    }
+}
+
+    /* FIN ESTILOS POEMAS */
+
+    /* COMIENZO ESTILOS ARTE */
+
+.gridMainArte p{
+    color: aliceblue;
+    text-align: center;
+    padding: 100px;
+}
