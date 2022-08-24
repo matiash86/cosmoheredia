@@ -174,3 +174,9 @@ img{
     text-align: center;
     padding: 100px;
 }
+
+p{
+    color: aliceblue;
+    font-size: 1.1rem;
+    margin: 20px;
+}
