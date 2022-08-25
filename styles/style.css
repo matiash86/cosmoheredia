@@ -16,6 +16,10 @@ body{
     text-align: center;
 }
 
+#tituloprincipal a:hover{
+    transition: all;
+}
+
 .gridHeader {
     display: grid;
     background-color: rgb(0, 0, 0);
