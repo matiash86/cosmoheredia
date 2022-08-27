@@ -5,6 +5,7 @@
 }
 
 body{
+
     background-color: rgb(23, 23, 23);
 }
 
@@ -17,10 +18,16 @@ body{
 }
 
 #tituloprincipal a:hover{
-    transition: all;
+    transition: .4s ease;
+    border-left: solid rgb(243, 203, 4);
+    border-width: 10px;
+    font-weight: bold;
+    color:aliceblue;
 }
 
-.gridHeader {
+
+
+/* .gridHeader {
     display: grid;
     background-color: rgb(0, 0, 0);
     grid-template-columns: 1fr 2fr;
@@ -35,19 +42,19 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
+} */
 
 a{
     color: rgb(230, 230, 230);
     text-decoration: none;
 }
 
-.flexNav a:hover {
+/* .flexNav a:hover {
     color: rgb(255, 255, 255);
     transition: all 0.2s ease-in-out;
-} 
+}  */
 
-.gridMain {
+/* .gridMain {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 560px 400px;
@@ -68,9 +75,9 @@ a{
 
 img{
     height: 100%;
-}
+} */
 
-.gridFooter {
+/* .gridFooter {
     padding: 30px;
     display: grid;
     grid-template-columns: 125px 125px 125px;
@@ -85,10 +92,10 @@ img{
     background-color: rgb(69, 69, 69);
     text-align: center;
 }
-
+ */
     /* Comienzo Desktop INDEX */
 
-@media (min-width: 599px){
+/* @media (min-width: 599px){
     .gridMain{
         grid-template-columns: 33% 67%;
         grid-template-rows: 562px;
@@ -97,11 +104,11 @@ img{
         border-bottom-left-radius:  20px;
         border-bottom-right-radius:  20px;
     }
-}
+} */
 
     /* Fin Desktop INDEX */
 
-.gridMainFoto {
+/* .gridMainFoto {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 700px 700px;
@@ -113,7 +120,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
     /* Comienzo Desktop FOTOS */
 
@@ -132,7 +139,6 @@ img{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
-    /* border: 2px solid rgb(255, 133, 133); */
     justify-content: center;
     align-items: center;
  }
@@ -142,14 +148,13 @@ img{
     justify-content: center;
     color: antiquewhite;
     text-align: center;
-    /* border: 2px solid white; */
 }
 
 .gridPoemas p{
     color:aliceblue;
     text-align: center;
     padding: 10px;
-    /* border: 2px solid white; */
+
 }
 
 @media (min-width: 599px){
@@ -162,10 +167,8 @@ img{
 
 @media (min-width: 1024px){
     .gridPoemas{
-        display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 150px 1fr;
-        /* border: 2px solid white; */
     }
 }
 
@@ -173,11 +176,11 @@ img{
 
     /* COMIENZO ESTILOS ARTE */
 
-.gridMainArte p{
+/* .gridMainArte p{
     color: aliceblue;
     text-align: center;
     padding: 100px;
-}
+} */
 
 p{
     color: aliceblue;
@@ -185,3 +188,25 @@ p{
     margin: 20px;
 }
 
+main div p{
+    background-color: rgb(27, 27, 27);
+    padding-top: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section div h4{
+    
+}
+
+footer section div{
+    transition: all .4s ease-in-out;
+}
+
+@media (min-width: 700px) and (orientation: landscape){
+
+}
+
+.bg-warning{
+    padding: 5px;
+}
