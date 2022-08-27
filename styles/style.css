@@ -124,18 +124,18 @@ img{
 
     /* Comienzo Desktop FOTOS */
 
-@media (min-width: 599px){
+/* @media (min-width: 599px){
     .gridMainFoto{
         grid-template-columns: 50% 50%;
         grid-template-rows: 700px;
     }
-}
+} */
 
     /* Fin Desktop FOTOS */
 
  /* ESTILOS PAGINA POEMAS */
 
- .gridPoemas{
+ /* .gridPoemas{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
@@ -170,7 +170,7 @@ img{
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 150px 1fr;
     }
-}
+} */
 
     /* FIN ESTILOS POEMAS */
 
@@ -193,10 +193,6 @@ main div p{
     padding-top: 1rem;
     border-radius: 10px;
     text-align: center;
-}
-
-section div h4{
-    
 }
 
 footer section div{
