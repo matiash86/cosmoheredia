@@ -35,7 +35,7 @@ p{
     margin: 20px;
 }
 
-.container div p{
+main div p{
     background-color: rgb(27, 27, 27);
     padding-top: 1rem;
     border-radius: 10px;
