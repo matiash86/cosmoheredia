@@ -63,12 +63,6 @@ main div p{
     border-bottom: 5px solid rgb(243, 203, 4);
 }
 
-/* .footStyle a{
-    padding: 3px;
-    background-color: rgb(29, 29, 29);
-    border-radius: 3px;
-
-} */
 /* FORMULARIO */
 
 .estiloLabel{
@@ -77,10 +71,6 @@ main div p{
 }
 
 /* FOOTER */
-
-.classFooter{
-    /* background-color: rgb(23, 23, 23); */
-}
 
 .classFooter ul{
     display: flex;
