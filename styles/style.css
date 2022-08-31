@@ -26,11 +26,6 @@ body{
     color:rgb(254, 255, 240);
 }
 
-/* header{
-    position: fixed;
-    top: 0px;
-} */
-
 a{
     color: rgb(230, 230, 230);
     text-decoration: none;
@@ -68,12 +63,12 @@ main div p{
     border-bottom: 5px solid rgb(243, 203, 4);
 }
 
-.footStyle a{
+/* .footStyle a{
     padding: 3px;
     background-color: rgb(29, 29, 29);
     border-radius: 3px;
 
-}
+} */
 /* FORMULARIO */
 
 .estiloLabel{
@@ -81,3 +76,29 @@ main div p{
     margin: 20px;
 }
 
+/* FOOTER */
+
+.classFooter{
+    /* background-color: rgb(23, 23, 23); */
+}
+
+.classFooter ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.classFooter ul li{
+    background-color: rgb(47, 47, 47);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.classFooter ul li a:hover{
+    transition: .5s ease;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 79);
+    color: aliceblue;
+}
