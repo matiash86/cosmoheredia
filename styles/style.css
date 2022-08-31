@@ -9,11 +9,13 @@ body{
 }
 
 #tituloprincipal{
+    background-color: rgb(23, 23, 23);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 100px solid blue;
 }
 
 #tituloprincipal a:hover{
@@ -23,6 +25,11 @@ body{
     font-weight: bold;
     color:rgb(254, 255, 240);
 }
+
+/* header{
+    position: fixed;
+    top: 0px;
+} */
 
 a{
     color: rgb(230, 230, 230);
