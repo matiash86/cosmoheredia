@@ -1,0 +1,21 @@
+#tituloPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 23, 23);
+    
+    a{
+        text-decoration: none;
+        color:rgb(254, 255, 240);
+
+        &:hover{
+            transition: .4s ease;
+            border-left: solid rgb(243, 203, 4);
+            font-weight: bold;
+            border-width: 10px;
+        }
+    }
+    
+}

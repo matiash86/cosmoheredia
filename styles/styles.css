@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(23, 23, 23);
+}
+
+#tituloPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(23, 23, 23);
+}
+#tituloPrincipal a {
+  text-decoration: none;
+  color: rgb(254, 255, 240);
+}
+#tituloPrincipal a:hover {
+  transition: 0.4s ease;
+  border-left: solid rgb(243, 203, 4);
+  font-weight: bold;
+  border-width: 10px;
+}
+
+.bordeTituloAmarillo {
+  border-bottom: 5px solid rgb(243, 203, 4);
+}
+
+main div p {
+  background-color: rgb(27, 27, 27);
+  padding-top: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(240, 248, 255);
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.classFooter ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.classFooter ul li {
+  background-color: rgb(47, 47, 47);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 7px;
+}
+.classFooter ul li a {
+  text-decoration: none;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.classFooter ul li a:hover {
+  transition: all 0.5s ease;
+  background-color: rgb(79, 79, 79);
+  padding: 7px;
+}
+
+.estiloLabel {
+  color: rgb(240, 248, 255);
+  margin: 20px;
+}
+
+@media (min-width: 1024px) {
+  .indexP {
+    font-size: 1.3rem;
+    line-height: 160%;
+  }
+}/*# sourceMappingURL=styles.css.map */
