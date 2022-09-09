@@ -1,4 +1,4 @@
 .estiloLabel{
-    color: $color_parrafo;
+    color: map-get($colorFonts, color_parrafo );
     margin: 20px;
 }

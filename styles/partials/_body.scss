@@ -1,4 +1,4 @@
 
 body{ 
-    background-color: $fondo_body;
+    background-color: map-get($backroundColors, fondo_body );
 }

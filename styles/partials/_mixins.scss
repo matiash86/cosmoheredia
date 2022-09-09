@@ -1,0 +1,4 @@
+@mixin botonesFooter ($bgColor, $borderRadius) {
+    background-color: $bgColor;
+    border-radius: $borderRadius;
+}

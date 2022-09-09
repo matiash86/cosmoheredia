@@ -1,8 +1,6 @@
 .classFooter ul{
-    display: flex;
-    justify-content: center;
+    @extend %displayFlexRow;
     list-style-type: none;
-    
     li{
         background-color: rgb(47, 47, 47);
         margin: 10px;
@@ -21,4 +19,16 @@
             }
         }
     }
+}
+
+.botonFooterFace{
+    @include botonesFooter(rgb(30, 48, 170), 10px );
+}
+
+.botonFooterTw{
+    @include botonesFooter(rgb(68, 82, 205), 10px );
+}
+
+.botonFooterInst{
+    @include botonesFooter(rgb(204, 38, 154), 10px );
 }

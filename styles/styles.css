@@ -1,3 +1,10 @@
+.classFooter ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -42,8 +49,6 @@ main div p {
 }
 
 .classFooter ul {
-  display: flex;
-  justify-content: center;
   list-style-type: none;
 }
 .classFooter ul li {
@@ -61,6 +66,21 @@ main div p {
   transition: all 0.5s ease;
   background-color: rgb(79, 79, 79);
   padding: 7px;
+}
+
+.botonFooterFace {
+  background-color: rgb(30, 48, 170);
+  border-radius: 10px;
+}
+
+.botonFooterTw {
+  background-color: rgb(68, 82, 205);
+  border-radius: 10px;
+}
+
+.botonFooterInst {
+  background-color: rgb(204, 38, 154);
+  border-radius: 10px;
 }
 
 .estiloLabel {

@@ -3,11 +3,11 @@ main{
     div{
 
         p{
-            background-color: $fondo_parrafo;
+            background-color: map-get($backroundColors, fondo_parrafo );
             padding-top: 1rem;
             border-radius: 10px;
             text-align: center;
-            color: $color_parrafo;
+            color: map-get($colorFonts, color_parrafo );
             font-size: 1.1rem;
             margin: 20px;
         }
