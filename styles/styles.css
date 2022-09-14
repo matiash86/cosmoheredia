@@ -1,3 +1,7 @@
+h2 {
+  font-family: "Aboreto", cursive;
+}
+
 .classFooter ul {
   display: flex;
   flex-direction: row;
